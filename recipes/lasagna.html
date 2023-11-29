@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lasagna Recipe</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <!-- link back to ../index.html -->
-    <a href="../index.html">Back to recipes</a>
+    <div id="topLinks">
+        <!-- link back to ../index.html -->
+        <a href="../index.html">Back to recipes</a>
+        <!-- link to recipe -->
+        <a href="https://www.allrecipes.com/recipe/19344/homemade-lasagna/" target="_blank" rel="noopener noreferrer">Original Recipe made by CRAIG</a>    
+    </div>
+
     <!--title and image-->
     <h1>Lasagna!</h1>
-    <img src="https://www.allrecipes.com/thmb/HjSxkaBz-wb5XkTxWR6tulNCn1U=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Homemade-Lasagna-lutzflcat-1x1-1-2000-e0288086a287407f941a97e6e59f3eb7.jpg" alt="A picture of a piece of lasagna with some cheese on top" width="400" height="400">
+    <div id="foodImage">
+        <img src="https://www.allrecipes.com/thmb/HjSxkaBz-wb5XkTxWR6tulNCn1U=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Homemade-Lasagna-lutzflcat-1x1-1-2000-e0288086a287407f941a97e6e59f3eb7.jpg" alt="A picture of a piece of lasagna with some cheese on top" width="400" height="400">
+    </div>
     <!-- description with sources and information to original recipe-->
-    <h3>Description</h3>
-    <p>Here is a homemade Lasagna recipe made by user <a href="https://www.allrecipes.com/cook/37713" target="_blank" rel="noopener noreferrer">CRAIG</a> over on <a href="https://www.allrecipes.com/" target="_blank" rel="noopener noreferrer">allrecipes.com.</a></p>
-    <p>The recipe is linked at the bottom of the page, give it a look for a more detailed description of the recipe!</p>
-
+    <div id="desc">
+        <h3>Description</h3>
+        <p>Here is a homemade Lasagna recipe made by user <a href="https://www.allrecipes.com/cook/37713" target="_blank" rel="noopener noreferrer">CRAIG</a> over on <a href="https://www.allrecipes.com/" target="_blank" rel="noopener noreferrer">allrecipes.com.</a></p>
+        <p>The recipe is linked at the bottom of the page, give it a look for a more detailed description of the recipe!</p>
+    </div>
+    <hr>
     <!-- unordered ingredient list -->
     <h3>Ingredients</h3>
     <ul>
@@ -38,7 +48,7 @@
         <li>1/4 teaspoon ground black pepper</li>
         <li>1 (16 ounce) package shredded mozzarella cheese</li>
     </ul>
-
+    <hr>
     <!-- ordered how-to list -->
     <h3>Steps</h3>
     <ol>
@@ -51,7 +61,7 @@
         <li>Bake in the preheated oven for 30 to 40 minutes. Remove the foil and bake until cheese is golden brown, 5 to 10 more minutes.</li> <br>
         <li>Remove from the oven and let stand for 10 minutes before cutting and serving.</li>
     </ol>
-    <!-- link to recipe -->
-    <a href="https://www.allrecipes.com/recipe/19344/homemade-lasagna/" target="_blank" rel="noopener noreferrer">Original Recipe made by CRAIG</a>
+    <hr>
+    <div id="bottom"></div>
 </body>
 </html>
